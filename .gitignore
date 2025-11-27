@@ -1,5 +1,9 @@
-# Dataset folder - don't upload training data
+# Ignore the entire dataset folder
 dataset/
+
+# But do NOT ignore test images inside dataset/test/
+!dataset/test/
+!dataset/test/**
 
 # Python virtual environment
 venv/
