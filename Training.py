@@ -9,8 +9,7 @@ from tensorflow.keras import layers
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.callbacks import EarlyStopping
 
-# I follow this instruction for image classification: 
-# https://www.tensorflow.org/tutorials/images/classification
+
 
 data_dir = "/home/pcsistem/Documents/archive/DatasetCharacter/DatasetCharacter" # training dataset folder
 
