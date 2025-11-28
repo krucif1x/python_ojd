@@ -496,7 +496,7 @@ if __name__ == "__main__":
     
     # 1. Initialize with manual labels
     extractor = ManualLabelsPlateExtractor(
-        manual_labels_path='/home/pcsistem/Documents/carlo_ojd_ml/plate_text_dataset/manual_labels.csv'
+        manual_labels_path=r'data/manual_labels.csv'
     )
     
     # 2. Train and evaluate
