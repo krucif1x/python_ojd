@@ -503,7 +503,7 @@ if __name__ == "__main__":
     results = extractor.train_and_evaluate(test_size=0.15, val_size=0.15)
     
     # 3. Save model
-    extractor.save_model('/home/pcsistem/Documents/carlo_ojd_ml/model/nlp_metadata.pkl')
+    extractor.save_model(r"C:\Users\Bernardo Carlo\Documents\python_ojd\model\nlp_metadata.pkl")
     
     # 4. Test predictions
     print("\n" + "="*70)
